@@ -45,3 +45,56 @@ nav > a {
 .anchor-contact {
     color: #3368A0;
 }
+
+header {
+    padding: 100px 0 0 35px;
+    color: #16202b;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    color: #3368A0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 115px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+header > div > a {
+    display: inline-block;
+    padding: 20px;
+    height: 50px;
+    text-decoration: none;
+}
+
+header > div {
+    display: flex;
+}
+
+.anchor-touch {
+    background-color: #3368A0;
+    color: #F2EFE7;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.anchor-github {
+    font-size: 0.8rem;
+    border: 2px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 12px;
+    color:#16202b;
+}
+
