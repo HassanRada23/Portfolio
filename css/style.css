@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #F2EFE7;
 }
 
 html {
@@ -9,5 +10,38 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Archivo", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border-bottom: 2px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav > div {
+    display: flex;
+    gap: 25px;
+}
+
+nav > div > a {
+    color: #16202b;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+nav > a {
+    color: #16202b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.anchor-contact {
+    color: #3368A0;
 }
