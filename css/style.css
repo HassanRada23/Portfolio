@@ -136,7 +136,7 @@ header > div {
 
 .sub-text {
     font-size: 0.8rem;
-    font-weight: 406000;
+    font-weight: 600;
     color: #66a3bf;
 }
 
@@ -155,3 +155,48 @@ header > div {
 }
 
 
+#skills > h2 {
+    margin: 75px 0 0 50px;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 450px;
+    padding: 40px;
+    gap: 20px;
+    background-color: #c8dfdb;
+    margin-top: 50px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 100px;
+    gap: 50px;
+}
+
+.skills-container-2, .skills-container-3 {
+    border-top: 2px solid black;
+    margin-top: 152px;
+    padding-top: 15px;
+}
+
+.skills-container-1 > h2 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.sub-skills {
+    font-size: 0.8rem;
+    color: #3368A0;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 16px;
+    font-size: 1.2rem;
+}
+
+#path > h2 {
+    margin: 75px 0 0 50px;
+}
