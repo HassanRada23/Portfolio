@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F2EFE7;
 }
 
 html {
@@ -11,6 +10,7 @@ html {
 
 body {
     font-family: "Archivo", sans-serif;
+    background-color: #F2EFE7;
 }
 
 nav {
@@ -21,6 +21,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1000;
+    background-color: #f2efe7;
 }
 
 nav > div {
@@ -112,18 +113,45 @@ header > div {
     padding: 25px 0 0 25px;
 }
 
-.about--open {
-    position: relative;
-    
+#projects > h2 {
+    margin: 75px 0 0 50px;
 }
 
-.about--open::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
+#projects > p {
+    margin: 20px 0 0 50px;
 }
 
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px;
+    gap: 20px;
+}
+
+.projects-container > div {
+    height: 275px;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+.sub-text {
+    font-size: 0.8rem;
+    font-weight: 406000;
+    color: #66a3bf;
+}
+
+.projects-container span {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #66a3bf;
+}
+
+.projects-container-1 *, .projects-container-2 *, .projects-container-3 * {
+    padding: 15px;
+}
+
+.projects-container-1:hover {
+    background-color: #c8dfdb;
+}
 
 
