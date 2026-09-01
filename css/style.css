@@ -98,3 +98,32 @@ header > div {
     color:#16202b;
 }
 
+#about {
+    display: grid;
+    margin-top: 50px;
+    padding-top: 50px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#about > div {
+    height: 115px;
+    border: 2px solid black;
+    border-left: 0;
+    padding: 25px 0 0 25px;
+}
+
+.about--open {
+    position: relative;
+    
+}
+
+.about--open::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+}
+
+
+
