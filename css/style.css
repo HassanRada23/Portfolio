@@ -230,3 +230,41 @@ li {
 .path-container p {
    color: #3d4a58;
 }
+
+#contact {
+    margin: 75px 0 50px 0;
+    height: 500px;
+    background-color: #3368A0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 100px 0 0 50px;
+    color: #F2EFE7;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #F2EFE7;
+    border-left: 2px solid #3d4a58;
+    height: 100px;
+    margin-top: 100px;
+    padding: 25px 0 0 25px;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 25px;
+}
+
+#contact a:hover {
+    background-color: #274f7b;
+}
+
+.contact-span {
+    display: block; 
+    margin-bottom: 15px; 
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
